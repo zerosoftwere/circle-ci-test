@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 var app = express();
 app.get('/', function(req, res) {
-	res.status(500).send('Faliure is an integral part of learning.');
+	res.status(200).send('Faliure is an integral part of learning.');
 });
 
 http.createServer(app).listen(port, function() {
